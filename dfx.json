@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "BAT_index": {
+      "type": "custom",
+      "candid": "icrc1_index.did",
+      "wasm": "icrc1_index.wasm"
+    },	    
+    "BAT_ledger": {
+      "type" : "custom",
+      "candid": "icrc1_ledger.did",
+      "wasm": "icrc1_ledger.wasm"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
