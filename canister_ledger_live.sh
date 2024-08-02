@@ -1,7 +1,7 @@
 dfx deploy --network=ic BAT_ledger --with-cycles 300000000000 --argument "(variant {Init =
 record {
      token_symbol = \"BAT\";
-     token_name = \"MiningMaze BAT token\";
+     token_name = \"Brave Animal Friends Token\";
      minting_account = record { owner = principal \"6si4j-u6mxa-dbafv-fy2kk-3rz4k-mvo4f-qkal7-fxf6j-2hy3i-ihs2f-fqe\" };
      transfer_fee = 10_000;
      metadata = vec {};
